@@ -67,7 +67,7 @@ header{
 /* Responsive, slightly larger image */
 .kopf-box img {
     width: 100%;
-    max-width: 200px;      /* larger than before */
+    max-width: 250px;      /* larger than before */
     height: auto;
     border-radius: 50%;    /* makes it round */
 }
