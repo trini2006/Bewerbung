@@ -54,29 +54,43 @@ header{
     width:100%;
 }
 
+.kopf-container {
+    display: flex;
+    align-items: center;   /* keeps image and text on the same horizontal level */
+    gap: 30px;             /* space between image and text */
+}
+
 .kopf-box {
     width: 100%;
 }
 
-/* Responsive image */
+/* Responsive, slightly larger image */
 .kopf-box img {
-    width: 100%;       /* let image fill its container */
-    max-width: 150px;  /* max size on large screens */
-    height: auto;      /* keeps aspect ratio */
-    border-radius: 50%; /* optional: makes it round */
+    width: 100%;
+    max-width: 200px;      /* larger than before */
+    height: auto;
+    border-radius: 50%;    /* makes it round */
 }
 
-/* Optional: on very small screens, stack image above text */
-@media (max-width: 600px) {
+/* On smaller screens, shrink image but keep horizontal layout */
+@media (max-width: 768px) {
+    .kopf-box img {
+        max-width: 150px;  /* smaller on tablet/mobile */
+    }
+}
+
+@media (max-width: 480px) {
     .kopf-container {
-        align-items: center;
+        flex-direction: column; /* stack vertically on very small screens */
         text-align: center;
     }
-
+    
     .kopf-box img {
-        max-width: 100px; /* shrink more on small screens */
+        max-width: 120px;       /* shrink further */
+        margin-bottom: 15px;    /* spacing above text */
     }
 }
+
 /* SECTIONS */
 section{
     padding:50px 20px;
