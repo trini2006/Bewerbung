@@ -38,7 +38,7 @@ header{
 
 .ueberschrift{
     font-family: 'Unbounded', sans-serif;
-    font-size: 100px;
+    font-size: 100px !important;
 }
 /* ABOUT */
 .about-container{
