@@ -2,7 +2,7 @@ body{
     font-family: Arial;
     margin:0;
     background:#f4f4f4;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* NAVIGATION */
@@ -35,12 +35,12 @@ header{
     padding:80px 20px;
     background:#0077ff;
     color:white;
-    font-size: 25px !important;
+    font-size: 24px !important;
 }
 
 .ueberschrift{
     font-family: 'Unbounded', sans-serif;
-    font-size: 50px !important;
+    font-size: 55px !important;
 }
 /* ABOUT */
 .about-container{
@@ -124,7 +124,7 @@ footer{
     padding:20px;
     background:#4e4e4e;
     color:white;
-    font-size: 15px !important;
+    font-size: 24px !important;
 }
 
 a{
