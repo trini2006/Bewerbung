@@ -36,6 +36,10 @@ header{
     color:white;
 }
 
+.ueberschrift{
+    font-family: 'Unbounded', sans-serif;
+    font-size: large;
+}
 /* ABOUT */
 .about-container{
     display:flex;
