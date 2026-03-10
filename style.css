@@ -98,6 +98,7 @@ section{
 */
 h2{
     text-align:center;
+    padding-top: 25px;
 }
 
 /* SKILLS */
@@ -138,6 +139,7 @@ h2{
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
+    padding-bottom: 25px;
 }
 
 .pdf-box{
