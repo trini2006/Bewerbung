@@ -45,6 +45,9 @@ header{
     font-size: 55px !important;
 }
 /* ABOUT */
+#about{
+    padding-bottom: 25px;
+}
 .about-container{
     display:flex;
     flex-direction: column;
@@ -123,6 +126,9 @@ h2{
 }
 
 /* PROJECTS */
+#projects{
+    padding-top: 25px;
+}
 .project-container{
     display:flex;
     justify-content:center;
