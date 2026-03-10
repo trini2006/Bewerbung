@@ -103,6 +103,8 @@ h2{
 
 /* SKILLS */
 #skills{
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #83b2ff;
 }
 
@@ -139,6 +141,11 @@ h2{
 }
 
 /* PDF */
+#documents{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #83b2ff;
+}
 .pdf-container{
     display:flex;
     justify-content:center;
